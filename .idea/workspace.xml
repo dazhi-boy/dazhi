@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a752e5c7-ad46-49a4-8167-2a3052476cd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/exceptions/IbatisException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/exceptions/PersistenceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/ClassLoaderWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/DefaultVFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/ExternalResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/JBoss6VFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/ResolverUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/io/VFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/logging/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/logging/LogException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/logging/LogFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/craft/logging/log4j/Log4jImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/craft/databases/jpetstore/jpetstore-hsqldb-dataload.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/craft/databases/jpetstore/jpetstore-hsqldb-schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/craft/databases/jpetstore/jpetstore-hsqldb.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/craft/io/ResourcesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/dazhi.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/dazhi.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/craft/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a752e5c7-ad46-49a4-8167-2a3052476cd4" name="Default Changelist" comment="添加基本的io工具类，logging工具类">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,116 +16,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/craft/io/ResourcesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="173" column="25" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/craft/databases/jpetstore/jpetstore-hsqldb-dataload.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/logging/LogFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
-              <folding>
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/logging/log4j/Log4jImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/io/DefaultVFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/io/ClassLoaderWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/io/VFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/io/JBoss6VFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/io/ExternalResources.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/craft/io/ResolverUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -446,7 +316,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -561,7 +431,8 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -573,7 +444,7 @@
       <workItem from="1563766543187" duration="15035000" />
       <workItem from="1563788007702" duration="267000" />
       <workItem from="1563788366954" duration="1957000" />
-      <workItem from="1563851305090" duration="7667000" />
+      <workItem from="1563851305090" duration="10285000" />
     </task>
     <task id="LOCAL-00001" summary="新建一个git项目">
       <created>1563859228918</created>
@@ -582,19 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563859228918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加基本的io工具类，logging工具类">
+      <created>1563871024417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563871024417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeneralExceptionsTest_should - 2019.07.22 at 14h 54m 51s.xml">
-      <configuration name="GeneralExceptionsTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneralExceptionsTest_should - 2019.07.22 at 14h 56m 54s.xml">
-      <configuration name="GeneralExceptionsTest.should" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourcesTest_stupidJustForCoverage - 2019.07.22 at 15h 38m 30s.xml">
-      <configuration name="ResourcesTest.stupidJustForCoverage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GeneralExceptionsTest_should_(1) - 2019.07.22 at 17h 55m 39s.xml">
       <configuration name="GeneralExceptionsTest.should (1)" configurationId="JUnit" />
     </history-entry>
@@ -610,15 +479,29 @@
     <history-entry file="ResourcesTest_shouldGetReaderWithClassLoader - 2019.07.23 at 16h 26m 22s.xml">
       <configuration name="ResourcesTest.shouldGetReaderWithClassLoader" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ResourcesTest_stupidJustForCoverage_(2) - 2019.07.23 at 16h 32m 38s.xml">
+      <configuration name="ResourcesTest.stupidJustForCoverage (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_shouldGetReaderWithClassLoader - 2019.07.23 at 16h 32m 45s.xml">
+      <configuration name="ResourcesTest.shouldGetReaderWithClassLoader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_shouldNotFindThisClass - 2019.07.23 at 16h 33m 37s.xml">
+      <configuration name="ResourcesTest.shouldNotFindThisClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_shouldGetClassForName - 2019.07.23 at 16h 33m 43s.xml">
+      <configuration name="ResourcesTest.shouldGetClassForName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest_shouldAllowDefaultClassLoaderToBeSet - 2019.07.23 at 16h 33m 48s.xml">
+      <configuration name="ResourcesTest.shouldAllowDefaultClassLoaderToBeSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24926000" />
+    <option name="totallyTimeSpent" value="27544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -627,13 +510,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32321042" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37527114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30477223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.21235102" />
@@ -685,7 +568,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建一个git项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建一个git项目" />
+    <MESSAGE value="添加基本的io工具类，logging工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加基本的io工具类，logging工具类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/exceptions/TooManyResultsException.java" />
@@ -914,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/craft/io/ResourcesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="173" column="25" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="35" />
+        <state relative-caret-position="2075">
+          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="50" />
         </state>
       </provider>
     </entry>
