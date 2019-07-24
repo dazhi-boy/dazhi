@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a752e5c7-ad46-49a4-8167-2a3052476cd4" name="Default Changelist" comment="添加基本的io工具类，logging工具类">
+    <list default="true" id="a752e5c7-ad46-49a4-8167-2a3052476cd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/datasource/DataSourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/datasource/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/datasource/unpooled/UnpooledDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/datasource/unpooled/UnpooledDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/reflection/MetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/reflection/SystemMetaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/session/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/session/ExecutorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/craft/session/TransactionIsolationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/craft/datasource/unpooled/UnpooledDataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/craft/test/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/craft/test/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/craft/test/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/craft/test/ConTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +34,81 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactoryBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/TransactionIsolationLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/ExecutorType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/SqlSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -29,11 +117,13 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/batis/craft/exceptions/IbatisException.java" />
         <option value="$PROJECT_DIR$/src/main/java/batis/craft/exceptions/PersistenceException.java" />
         <option value="$PROJECT_DIR$/src/main/java/batis/craft/exceptions/TooManyResultsException.java" />
         <option value="$PROJECT_DIR$/src/main/java/batis/craft/exceptions/ExceptionFactory.java" />
@@ -66,21 +156,32 @@
         <option value="$PROJECT_DIR$/src/main/java/craft/logging/LogException.java" />
         <option value="$PROJECT_DIR$/src/main/java/craft/io/ResolverUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/craft/io/VFS.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/craft/io/DefaultVFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/craft/io/JBoss6VFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/craft/io/ExternalResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/craft/logging/LogFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/craft/logging/log4j/Log4jImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/craft/io/ResourcesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/datasource/DataSourceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/datasource/DataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/datasource/unpooled/UnpooledDataSourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/reflection/SystemMetaObject.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/datasource/unpooled/UnpooledDataSource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/craft/datasource/unpooled/UnpooledDataSourceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/craft/test/ConTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/session/SqlSession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/session/ExecutorType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/session/TransactionIsolationLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactoryBuilder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="884" />
-    <option name="y" value="2" />
-    <option name="width" value="1036" />
-    <option name="height" value="1040" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,6 +197,93 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="craft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="craft" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="craft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="craft" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dazhi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="dazhi" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -180,138 +368,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dazhi" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dazhi" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-              <item name="log4j" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-              <item name="databases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-              <item name="databases" type="462c0819:PsiDirectoryNode" />
-              <item name="jpetstore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dazhi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dazhi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="craft" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/craft/databases/jpetstore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/craft/test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -320,11 +383,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\dazhi\src\test\java\craft\test" />
+      <recent name="D:\IdeaProjects\dazhi\src\main\java\craft\datasource" />
       <recent name="D:\IdeaProjects\dazhi\src\test\java\craft\databases\jpetstore" />
       <recent name="D:\IdeaProjects\dazhi\src\test\java\craft\io" />
       <recent name="D:\IdeaProjects\dazhi\src\main\java\craft\exceptions" />
-      <recent name="D:\IdeaProjects\dazhi\src\main\java\craft\logging\log4j" />
-      <recent name="D:\IdeaProjects\dazhi\src\main\java\craft\logging" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,7 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ResourcesTest.shouldAllowDefaultClassLoaderToBeSet">
+  <component name="RunManager" selected="JUnit.UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver">
     <configuration name="ResourcesTest.shouldAllowDefaultClassLoaderToBeSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dazhi" />
       <extension name="coverage">
@@ -372,22 +435,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourcesTest.shouldGetReaderWithClassLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dazhi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="craft.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="craft.io" />
-      <option name="MAIN_CLASS_NAME" value="craft.io.ResourcesTest" />
-      <option name="METHOD_NAME" value="shouldGetReaderWithClassLoader" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ResourcesTest.shouldNotFindThisClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dazhi" />
       <extension name="coverage">
@@ -404,17 +451,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourcesTest.stupidJustForCoverage (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dazhi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="craft.io.*" />
+          <option name="PATTERN" value="craft.datasource.unpooled.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="craft.io" />
-      <option name="MAIN_CLASS_NAME" value="craft.io.ResourcesTest" />
-      <option name="METHOD_NAME" value="stupidJustForCoverage" />
+      <option name="PACKAGE_NAME" value="craft.datasource.unpooled" />
+      <option name="MAIN_CLASS_NAME" value="craft.datasource.unpooled.UnpooledDataSourceTest" />
+      <option name="METHOD_NAME" value="shouldNotRegisterTheSameDriverMultipleTimes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dazhi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="craft.datasource.unpooled.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="craft.datasource.unpooled" />
+      <option name="MAIN_CLASS_NAME" value="craft.datasource.unpooled.UnpooledDataSourceTest" />
+      <option name="METHOD_NAME" value="shouldRegisterDynamicallyLoadedDriver" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -422,11 +485,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver" />
+        <item itemvalue="JUnit.UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" />
         <item itemvalue="JUnit.ResourcesTest.shouldAllowDefaultClassLoaderToBeSet" />
         <item itemvalue="JUnit.ResourcesTest.shouldGetClassForName" />
         <item itemvalue="JUnit.ResourcesTest.shouldNotFindThisClass" />
-        <item itemvalue="JUnit.ResourcesTest.shouldGetReaderWithClassLoader" />
-        <item itemvalue="JUnit.ResourcesTest.stupidJustForCoverage (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +507,8 @@
       <workItem from="1563766543187" duration="15035000" />
       <workItem from="1563788007702" duration="267000" />
       <workItem from="1563788366954" duration="1957000" />
-      <workItem from="1563851305090" duration="10285000" />
+      <workItem from="1563851305090" duration="14019000" />
+      <workItem from="1563946338020" duration="11213000" />
     </task>
     <task id="LOCAL-00001" summary="新建一个git项目">
       <created>1563859228918</created>
@@ -460,48 +524,56 @@
       <option name="project" value="LOCAL" />
       <updated>1563871024417</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="不知道干啥用的">
+      <created>1563873906367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563873906367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeneralExceptionsTest_should_(1) - 2019.07.22 at 17h 55m 39s.xml">
-      <configuration name="GeneralExceptionsTest.should (1)" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldNotRegisterTheSameDriverMultipleTimes - 2019.07.24 at 15h 02m 31s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_stupidJustForCoverage_(1) - 2019.07.22 at 17h 55m 57s.xml">
-      <configuration name="ResourcesTest.stupidJustForCoverage (1)" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldNotRegisterTheSameDriverMultipleTimes - 2019.07.24 at 15h 03m 06s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_stupidJustForCoverage_(2) - 2019.07.23 at 16h 18m 36s.xml">
-      <configuration name="ResourcesTest.stupidJustForCoverage (2)" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldNotRegisterTheSameDriverMultipleTimes - 2019.07.24 at 15h 04m 04s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_shouldGetReaderWithClassLoader - 2019.07.23 at 16h 19m 29s.xml">
-      <configuration name="ResourcesTest.shouldGetReaderWithClassLoader" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldNotRegisterTheSameDriverMultipleTimes - 2019.07.24 at 15h 37m 32s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_shouldGetReaderWithClassLoader - 2019.07.23 at 16h 26m 22s.xml">
-      <configuration name="ResourcesTest.shouldGetReaderWithClassLoader" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldNotRegisterTheSameDriverMultipleTimes - 2019.07.24 at 15h 48m 16s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_stupidJustForCoverage_(2) - 2019.07.23 at 16h 32m 38s.xml">
-      <configuration name="ResourcesTest.stupidJustForCoverage (2)" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldNotRegisterTheSameDriverMultipleTimes - 2019.07.24 at 15h 52m 13s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldNotRegisterTheSameDriverMultipleTimes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_shouldGetReaderWithClassLoader - 2019.07.23 at 16h 32m 45s.xml">
-      <configuration name="ResourcesTest.shouldGetReaderWithClassLoader" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldRegisterDynamicallyLoadedDriver - 2019.07.24 at 16h 04m 12s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_shouldNotFindThisClass - 2019.07.23 at 16h 33m 37s.xml">
-      <configuration name="ResourcesTest.shouldNotFindThisClass" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldRegisterDynamicallyLoadedDriver - 2019.07.24 at 16h 07m 42s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_shouldGetClassForName - 2019.07.23 at 16h 33m 43s.xml">
-      <configuration name="ResourcesTest.shouldGetClassForName" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldRegisterDynamicallyLoadedDriver - 2019.07.24 at 16h 10m 01s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourcesTest_shouldAllowDefaultClassLoaderToBeSet - 2019.07.23 at 16h 33m 48s.xml">
-      <configuration name="ResourcesTest.shouldAllowDefaultClassLoaderToBeSet" configurationId="JUnit" />
+    <history-entry file="UnpooledDataSourceTest_shouldRegisterDynamicallyLoadedDriver - 2019.07.24 at 16h 12m 11s.xml">
+      <configuration name="UnpooledDataSourceTest.shouldRegisterDynamicallyLoadedDriver" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27544000" />
+    <option name="totallyTimeSpent" value="42491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,17 +582,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32321042" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30477223" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30151844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.33554083" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.21235102" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.21149674" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.21139102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -569,31 +641,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建一个git项目" />
     <MESSAGE value="添加基本的io工具类，logging工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加基本的io工具类，logging工具类" />
+    <MESSAGE value="不知道干啥用的" />
+    <option name="LAST_COMMIT_MESSAGE" value="不知道干啥用的" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/exceptions/TooManyResultsException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/exceptions/ExceptionFactory.java" />
-    <entry file="jar://D:/bioknowshell64/jdk1.8.0_101/jre/lib/rt.jar!/java/nio/charset/Charset.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/batis/craft/test/ConTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/batis/craft/databases/jpetstore/jpetstore-hsqldb-dataload.sql" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/batis/craft/BaseDataTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/io/ClassLoaderWrapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/io/Resources.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/io/ResolverUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/batis/craft/exceptions/GeneralExceptionsTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/batis/craft/io/ResourcesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/log4j2/Log4j2AbstractLoggerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/slf4j/Slf4jImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/io/VFS.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/Log.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/LogException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/LogFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/stdout/StdOutImpl.java" />
@@ -601,79 +652,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/slf4j/Slf4jLocationAwareLoggerImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/log4j/Log4jImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/batis/craft/logging/commons/JakartaCommonsLoggingImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/logging/jdbc/BaseJdbcLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/logging/LogFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/logging/jdbc/PreparedStatementLoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/exceptions/GeneralExceptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/io/ResourcesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="172" column="26" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/nodelet_test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/BlogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/BaseDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ConTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/logging/jdbc/BaseJdbcLogger.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/logging/LogFactoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/logging/jdbc/PreparedStatementLoggerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/exceptions/GeneralExceptionsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/io/ResourcesTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/nodelet_test.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/BlogMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/ibatis/BaseDataTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ConTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/craft/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -681,13 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/craft/logging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/logging.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/craft/logging/Log.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -705,13 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -800,6 +776,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2075">
           <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/datasource/DataSourceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/reflection/MetaObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/reflection/SystemMetaObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="8" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/datasource/unpooled/UnpooledDataSourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/datasource/DataSourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/bioknowshell64/jdk1.8.0_101/jre/lib/rt.jar!/java/sql/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/datasource/unpooled/UnpooledDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6025#6026#0" expanded="true" />
+            <element signature="e#6064#6065#0" expanded="true" />
+            <element signature="e#6418#6419#0" expanded="true" />
+            <element signature="e#6478#6479#0" expanded="true" />
+            <element signature="e#6536#6537#0" expanded="true" />
+            <element signature="e#6596#6597#0" expanded="true" />
+            <element signature="e#6837#6838#0" expanded="true" />
+            <element signature="e#6895#6896#0" expanded="true" />
+            <element signature="e#6976#6977#0" expanded="true" />
+            <element signature="e#7050#7051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/craft/datasource/unpooled/UnpooledDataSourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/craft/test/BlogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/craft/test/ConTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="7" selection-start-line="8" selection-start-column="2" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/ExecutorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/TransactionIsolationLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/craft/session/SqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
